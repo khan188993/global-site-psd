@@ -483,3 +483,33 @@ section#publishers {
     font-size: 60px;
 }
 
+
+/* ========= Fact about us Part Start ===========  */
+
+.fact-about p {
+    padding: 0px 202px;
+    line-height: 33px;
+    margin-bottom: 100px;
+}
+
+
+.single-fact-card {
+    text-align: center;
+    border-bottom: 4px solid transparent;
+    transition: .3s;
+}
+
+
+.single-fact-card:hover {
+    border-bottom: 4px solid var(--orange);
+}
+
+.single-fact-card h2 {
+    font-size: 18px;
+    margin-top: 35px;
+    line-height: 30px;
+
+}
+
+
+
