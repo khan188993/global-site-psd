@@ -354,5 +354,22 @@ p {
     margin-top: -224px;
 }
 
+/* ========= Why We Part Start ===========  */
+
+
+.why-we-card-single p {
+    line-height: 33px;
+}
+
+.why-we-card-single img {
+    margin-bottom: 18px;
+}
+
+
+
+#why-we {
+    padding-top: 15px;
+}
+
 
 
