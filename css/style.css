@@ -399,5 +399,34 @@ p {
     background: var(--orange);
 }
 
+/* ========= Advertiser Part Start ===========  */
+.advertisers-text {
+    margin-top: 237px;
+}
+
+.advertisers-text .sectionHeading {
+    margin-bottom: 0;
+}
+
+.advertisers-text .sectionHeading h1 {
+    text-align: left;
+}
+
+.advertisers-text .sectionHeading p {
+    text-align: left;
+    line-height: 30px;
+}
+
+.advertisers-text>a {
+    color: var(--orange);
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.advertisers-img a {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
 
 
