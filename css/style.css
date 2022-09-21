@@ -1,0 +1,311 @@
+/* ========= Google Font Add ===========  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+
+    /* colors  */
+    --orange: #f39f31;
+    --deep-orange: #de4627;
+    --white: #ffffff;
+    --black: #000000;
+    --p-color: #7d7d7d;
+    --section-color: #f6f6f6;
+
+    /* fonts  */
+    --roboto: 'Roboto', sans-serif;
+
+
+
+}
+
+/* ========= GlobalStyle Part Start ===========  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--roboto);
+    overflow-x: hidden;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+}
+
+.col-1 {
+    width: 8.33%;
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 0 15px;
+}
+
+.col-9 {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding: 0 15px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    width: 0%;
+    height: 0%;
+}
+
+
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white--color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+section {
+    padding: 100px 0;
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: darkgrey;
+
+}
+
+h1,
+h2,
+p {
+    margin-bottom: 15px;
+}
+
+.sectionHeading {
+    margin-bottom: 60px;
+}
+
+.sectionHeading h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--black);
+    text-align: center;
+}
+
+
+.sectionHeading p {
+    font-size: 18px;
+    font-weight: 400;
+    color: darkgrey;
+    text-align: center;
+}
+
+
+.btn {
+    color: var(--black);
+    font-weight: 700;
+    padding: 18px 50px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-top: 22px;
+}
+
+.btn-white {
+    background: var(--white);
+    transition: .3s;
+}
+
+.btn-white:hover {
+    background: var(--orange);
+    color: var(--white);
+}
+
+.btn-orange {
+
+    background: var(--orange);
+    color: var(--white);
+    margin-right: 16px;
+}
+
+
+
+/* ========= Mobile Menu Part Start ===========  */
+.wrapper button {
+	position: absolute;
+	border: none;
+	background: none;
+	top: 40PX;
+	right: 35px;
+}
+
+.wrapper button img{
+    width:23px;
+}
+
+.mobile-nav {
+	position: fixed;
+	background: #ffaf75;
+	width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+}
+
+
+.mobile-wrapper {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    top: 74px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .mobile-wrapper img {
+    width: 208px;
+  }
+  .mobile-wrapper a {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 26px 0px;
+  }
+
+  .open {
+	transform: translateX(0%);
+	transition: .5s;
+}
+  .fade {
+	transform: translateX(-100%);
+	transition: .5s;
+}
+
+
+
+/* ========= Header Part Start ===========  */
+#header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 812px;
+}
+
+.header {
+    padding-top: 10px;
+}
+
+.logo {
+    margin-top: 28px;
+}
+
+.nav-menu ul li {
+    float: left;
+    margin-right: 24px;
+}
+
+.nav-menu ul li:last-child {
+    margin-right: 1px;
+}
+
+.nav-menu ul li a {
+    display: block;
+    padding: 40px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    transition: .3s;
+}
+
+.nav-menu ul li a:hover {
+    color: var(--orange);
+}
+
+.hero-text div.text {
+    text-align: center;
+    padding-top: 178px;
+}
+
+.hero-text div.text h1 {
+    color: var(--white);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.btn-gradient {
+    display: inline-block;
+    background-image: linear-gradient(to left, var(--orange), var(--deep-orange));
+    color: var(--white);
+    padding: 19px 40px;
+
+}
+
+.hamberger{
+    display:none;
+}
