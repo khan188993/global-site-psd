@@ -309,3 +309,50 @@ p {
 .hamberger{
     display:none;
 }
+
+/* ========= Services Part Start ===========  */
+
+.single-services p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.single-services h1 {
+    font-size: 30px;
+}
+
+.read-more {
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.single-services {
+    padding: 40px;
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.47);
+    background: var(--white);
+    transition: .3s;
+}
+
+.single-services:hover {
+    background: var(--orange);
+    color: var(--white);
+}
+
+.single-services:hover p {
+    color: var(--white);
+}
+
+.single-services:hover .btn-orange {
+    background: var(--white);
+    color: var(--black);
+}
+
+.all-services {
+    margin-top: -224px;
+}
+
+
+
