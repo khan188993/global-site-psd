@@ -429,4 +429,33 @@ p {
     
 }
 
+/* ========= Agencies Part Start ===========  */
+
+.text-left h1,
+.text-left p {
+    text-align: left;
+}
+
+#agencies {
+    background: var(--section-color);
+}
+
+.agencies-single-box {
+    display: flex;
+}
+
+.agencies-single-box .icon {
+    margin-right: 22px;
+    font-size: 30px;
+    color: var(--orange);
+}
+
+.agencies-single-box p {
+    line-height: 33px;
+}
+
+.sectionHeading.text-left p {
+    line-height: 33px;
+}
+
 
