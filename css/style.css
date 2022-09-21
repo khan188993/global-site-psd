@@ -458,4 +458,28 @@ p {
     line-height: 33px;
 }
 
+/* ========= Publishers Part Start ===========  */
+section#publishers {
+    background: url(../images/publisher-bg.png);
+    padding: 100px 0 50px 0;
+}
+
+.publishers {
+    color: var(--white);
+    text-align: center;
+}
+
+.publishers h1 {
+    color: var(--white);
+}
+
+.publishers p {
+    padding: 0px 202px;
+    line-height: 33px;
+    margin-bottom: 124px;
+}
+
+.publishers i {
+    font-size: 60px;
+}
 
