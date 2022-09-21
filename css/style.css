@@ -511,5 +511,26 @@ section#publishers {
 
 }
 
+/* ========= Footer part Start ===========  */
+#footer {
+    background-color: var(--section-color);
+    padding: 90px 0 10px;
+}
+
+#footer p {
+    padding: 0px 241px;
+    line-height: 33px;
+}
+
+
+.social-icons {
+    text-align: center;
+    color: var(--p-color);
+}
+
+.social-icons a {
+    margin: 16px 15px 0;
+    display: inline-block;
+}
 
 
