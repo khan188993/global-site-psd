@@ -167,6 +167,10 @@ p {
     text-align: center;
 }
 
+#publishers .sectionHeading p{
+    color:var(--white);
+}
+
 
 .btn {
     color: var(--black);
